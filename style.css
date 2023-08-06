@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("./resources/images/background.jpg");
+    background-size: cover;
+    /* width: 800; */
+    color: white;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 60%;
+    margin: 20px auto;
+    padding: 50px 100px;
+    border-radius: 20px;
+}
+
+header {
+    text-align: center;
+    color: lime;
+}
+
+header .logo {
+    width: 30%;
+    height: 30%;
+}
+
+nav {
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: lime;
+}
+
+nav > div{
+    scale: 80%;
+}
+
+main {
+    width: 70%;
+}
+
+section {
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+section h2 {
+    display: inline-block;
+}
+
+.nav-info::before {
+    content: "\21A6  ";
+}
+
+.battery {
+    height: 25px;
+    border-radius: 5px;
+}
+
+.battery-high {
+    background-color: rgb(71, 249, 86);
+    width: 100%;
+}
+
+.battery-medium {
+    background-color: rgb(249, 190, 71);
+    width: 60%;
+}
+
+.battery-low {
+    background-color: rgb(249, 71, 71);
+    width: 30%;
+}
